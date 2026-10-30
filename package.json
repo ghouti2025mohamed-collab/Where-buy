@@ -1,0 +1,30 @@
+{
+  "name": "where-buy",
+  "version": "1.0.0",
+  "private": true,
+  "license": "0BSD",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "@supabase/supabase-js": "2.57.4",
+    "expo": "~55.0.0",
+    "expo-image-picker": "~17.0.8",
+    "expo-status-bar": "~3.0.9",
+    "react": "19.2.0",
+    "react-native": "0.83.0",
+    "react-native-reanimated": "^4.5.0",
+    "react-native-url-polyfill": "2.0.0",
+    "react-native-webview": "13.15.0",
+    "react-native-blob-util": "0.24.7",
+    "react-native-executorch": "^0.10.7",
+    "react-native-nitro-image": "^0.15.2",
+    "react-native-nitro-modules": "^0.37.1",
+    "react-native-worklets": "0.10.4"
+  }
+}
